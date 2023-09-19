@@ -1,0 +1,46 @@
+@media(max-width:1024px){
+    .card{
+       align-items: center;
+       text-align: center;
+    }
+    input{
+        width: 70%;
+    }
+}
+@media(max-width:992px){
+  #conteiner{
+    flex-direction: column;
+    height: 90%;
+    gap:10px;
+    margin-bottom: 15px;
+  
+  }
+  .card{
+    align-items: center;
+    border-bottom: 1px solid #303030;
+    width:80%;
+    text-align: center;
+  }
+  .descripcion{
+    font-size: 16px;
+  }
+  .card3{
+    border:none;
+  }
+  .card, .btn3, .btn1, .btn2{
+    margin-bottom: 5px;
+  }
+  input{
+    font-size: 18px;
+  }
+}
+
+/*--------------------celular---------------------*/
+@media(max-width:576px) {
+input{
+    width: 100%;
+}
+  .descripcion {
+      font-size: 14px;
+  }
+}
